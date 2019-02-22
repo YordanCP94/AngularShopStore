@@ -12,9 +12,4 @@ export class AppComponent implements OnInit {
   ngOnInit(){
 
   }
-
-  onNavigate(event){
-    console.log("I'm the event", event);
-    this.loadedFeature = event;
-  }
 }
